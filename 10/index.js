@@ -5,14 +5,14 @@ let menor = 0;
 
 
 for (let i of numeros){
-    if (i >= maior){
+    if (i > maior){
         maior = i;
     }
 }
 
 
 for (let i of numeros){
-    if (i <= maior){
+    if (i < maior){
         menor = i;
     }
 }
